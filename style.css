@@ -1,0 +1,110 @@
+/******************************************
+/* Ryan Reynolds isn't here either...
+/*******************************************/
+
+/* Box Model Hack */
+*{
+	box-sizing: border-box;
+  }
+  
+  /******************************************
+  /* LAYOUT
+  /*******************************************/
+  html {
+	  max-width: 1500px;
+	  min-width: 900px;
+  }
+  
+  body {
+	  padding-top: 56px;
+  }
+  
+  h1 {
+	  text-align: center;
+	  font-size: 41px;
+	  border-bottom: 5px solid black;
+	  display: inline-block;
+	  padding: 0px 15px 0 15px;
+	  margin-top: 20.85px;
+	  border-top: 5px solid black;
+	  margin-left: 171px;
+  }
+  
+  h2 {
+	  font-size: 30px;
+	  padding-left: 108px;
+	  font-style: italic;
+	  margin-left: 29px;
+  }
+  
+  h3 {
+	  margin-top: -29.28px;
+	  margin-left: 389px;
+	  margin-bottom: 4.72px;
+	  font-size: 20px;
+  }
+  
+  img {
+	  display: block;
+	  height: 500px;
+	  margin: 0 auto;
+	  border: 5px solid black;
+  }
+  ul {
+	  width: 301px;
+	  height: 406px;
+	  border: 5px solid black;
+	  list-style: none;
+	  padding: 0px;
+	  text-align: center;
+	  font-size: 27px;
+	  font-weight: bolder;
+  }
+  
+  li {
+	  width: 292px;
+	  height: 99px;
+	  font-size: 40px;
+	  padding: -1px 2px 3px 2px;
+	  cursor: pointer;
+  }
+  
+  .hidden {
+	  display: none;
+  }
+  
+  .firstSection {
+	  width: 70%;
+	  float: left;
+  }
+  .secondSection {
+	  width: 30%;
+	  float: left;
+  }
+  
+  section.secondSection {
+	  margin-left: -108px;
+	  margin-top: 20px;
+  }
+  /******************************************
+  /* ADDITIONAL STYLES
+  /*******************************************/
+  #mint {
+	  background-color: rgba(69,152,99,1);
+	  padding-top: 5px;
+  }
+  
+  #blue {
+	  background-color: rgba(12,135,191,1);
+	  padding-top: 20px;
+  }
+  
+	#yellow {
+	  background-color: rgba(220,189,37,1);
+	  padding-top: 5px;
+  }
+  
+	#red {
+	  background-color: rgba(122,10,10,1);
+	  padding-top: 20px;
+  }
